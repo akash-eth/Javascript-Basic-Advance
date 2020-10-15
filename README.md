@@ -1,2 +1,2 @@
 ### Javascript-Basic-Advance ###
-Javascript implemention from Basic to Advance
+Functioning Of Javascript from Basic to Advance
