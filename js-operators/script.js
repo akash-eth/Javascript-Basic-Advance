@@ -10,3 +10,9 @@ var discountPrice = ((originalPrice - sellPrice)/originalPrice)*100;
 console.log(`
     Discount on the product is: ${discountPrice}
 `);
+
+discountRoundOff = Math.round(discountPrice);
+
+console.log(`
+    Round of discount is: ${discountRoundOff}
+`);
