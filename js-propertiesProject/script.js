@@ -7,4 +7,10 @@ var pink = document.querySelector(".pink")
 var center = document.querySelector(".center")
 
 
-console.log(window.getComputedStyle(red).backgroundColor);
+//console.log(window.getComputedStyle(red).backgroundColor);
+
+var getBackGroundColor = (selectedElement) => {
+    return window.getComputedStyle(selectedElement).backgroundColor;
+}
+
+console.log(getBackGroundColor(pink));
