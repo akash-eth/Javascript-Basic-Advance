@@ -9,3 +9,8 @@ setInterval(() => {
     counter.innerHTML = count;
     count++;
 }, 1);
+
+
+setInterval(() => {
+    follower.innerHTML = "Followers On Instagram";
+}, 4800)
