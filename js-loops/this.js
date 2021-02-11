@@ -7,6 +7,11 @@ var user = {
     courseCount: 24,
     getCourseCount: function() {
         console.log(this);
+        function sayHello() {
+            console.log("Hello");
+            console.log("Line 12", this);   // this is a regualr function call. So, this will call the point to the window object
+        }
+        sayHello()
     }
 }
 
