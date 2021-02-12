@@ -26,3 +26,6 @@ console.log(sum(5));
 
 // we can also do one thing:
 console.log(doAddition(2)(2)); // passing both the args at once
+
+// doAddition()()(); // we can pass several () after doAddition as the function expands.
+                    // this methodology is reffered to as CURRING.
