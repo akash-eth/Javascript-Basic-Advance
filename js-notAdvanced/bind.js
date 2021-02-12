@@ -45,5 +45,10 @@ var sam = {
 // akash.getInfo.bind(sam)(); // this works fine
 
 //or
-var akashInfo = akash.getInfo.bind(sam);
-akashInfo();                            // gives the same thing
+// var akashInfo = akash.getInfo.bind(sam);
+// akashInfo();                            // gives the same thing
+
+
+// now we wil use call prototype in place of bind:
+
+akash.getInfo.call(sam); // this will directly work. As call gives us value and bind only gives us a reference back !!
