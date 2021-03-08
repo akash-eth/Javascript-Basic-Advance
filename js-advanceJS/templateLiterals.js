@@ -7,3 +7,11 @@
 
 var name = `akash's`
 var fullName = `${name} bhardwaj`
+console.log(fullName);
+
+// how string's depicts array:
+
+console.log(fullName.charAt(1));    // gives char's position !!
+console.log(fullName.endsWith("j")); // gives a bool !!
+console.log(fullName.includes("bhar")); // string matching
+console.log(fullName.toUpperCase());

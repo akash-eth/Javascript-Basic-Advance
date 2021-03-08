@@ -19,8 +19,9 @@ User.prototype.getLastName = function() {
     console.log(this.lastName);
 }
 
-var akash = new User("Akash", "Bhar", 12);
+var akash = new User("Akash", "Bhardwaj", 12);
 
 if (akash.hasOwnProperty("firstName")) {        // hasOwnProperty is a part of PROTO, which tells weather the var exist inside proto or not
     akash.getFirstName();
+    akash.getLastName();
 }

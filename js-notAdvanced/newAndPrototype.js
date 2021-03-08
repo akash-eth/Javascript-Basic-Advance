@@ -10,7 +10,7 @@ var User = function(firstName, courseCount, lastName) {
 // var akash = User("Aaksh", 12); // without new this will give us undefined !!
 // console.log(akash);
 
-User.prototype.userFirstName = function () {  //protoType is used to set unique method
+User.prototype.userFirstName = function () {  //protoType is used to set unique method, and will be saved in the window object
     console.log(this.firstName);
 }
 
