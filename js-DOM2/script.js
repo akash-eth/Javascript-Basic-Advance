@@ -40,7 +40,7 @@ var courses = [
 function generateList() {
 
     const ul = document.querySelector(".list-group");
-    ul.innerHTML
+    // ul.innerHTML = "";
     courses.forEach((course) => {
         const li = document.createElement("li");
         li.classList.add("list-group-item");
@@ -66,7 +66,7 @@ window.addEventListener("load", generateList)   // this will work same as line 6
 
 
 
-const button = document.querySelector(".sort-btn");
+const button = document.querySelector(".btn");
 
 button.addEventListener("click", () => {
     courses.sort((a,b) => a.price - b.price);
