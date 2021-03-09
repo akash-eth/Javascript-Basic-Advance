@@ -15,3 +15,7 @@ class User {
     }
 
 }
+
+//Now, we need to export this to make it available from any other file !!
+
+module.exports = User;
