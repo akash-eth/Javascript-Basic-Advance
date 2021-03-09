@@ -3,7 +3,7 @@ class User {
         this.name = name;
         this.email = email;
     }
-    courseList = []
+    courseList = []     // In class we need not to declare let, var
     getInfo() {
         return {name: this.name, email: this.email}
     }
@@ -18,4 +18,4 @@ class User {
 
 //Now, we need to export this to make it available from any other file !!
 
-module.exports = User;
+module.exports = User;      // it is imported in classObject.js
