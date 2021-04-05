@@ -9,7 +9,7 @@ var user = ["akash", 3, "admin"];
 
 var [name, courseCount, role] = user; // LHS = RHS. i.e. array of size 3 = array of size 3.
 
-console.log(courseCount);
+// console.log(courseCount);
 
 var myUser = {
     newName: "Akash",
@@ -18,4 +18,4 @@ var myUser = {
 }
 
 const {newName, newCourseCount, newRole} = myUser;  // parameters should also be same as assigned inside the obj
-console.log(newName);
+console.log(newName, newCourseCount, newRole);
