@@ -57,6 +57,7 @@ let sortTodos = function(todoList) {
     })
 }
 
-console.log(sortTodos(todo));
+sortTodos(todo);
+console.log(todo);
 
 // console.log(filterTodos(todo, 'true'));
