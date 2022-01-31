@@ -38,15 +38,3 @@ userData.addExpense('pub', 300);
 userData.addExpense('disc', 500);
 userData.addIncome('Income 21', 1000);
 console.log(userData.userSummary());
-
-// let userSummary = function(selectUserData) {
-//     let calculateUserTotalExpense = 0;
-//     for(let i=0; i<selectUserData.expenses.length; i++) {
-//         calculateUserTotalExpense += selectUserData.expenses[i].amount;
-//     }
-//     let userNetWorth = selectUserData.income - calculateUserTotalExpense;
-//     return `Hey! ${selectUserData.name}. Your income is ${selectUserData.income} and you networth is ${userNetWorth}`
-// }
-
-// let getUserSummary = userSummary(userData);
-// console.log(getUserSummary);

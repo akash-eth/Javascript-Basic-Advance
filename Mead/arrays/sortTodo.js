@@ -13,6 +13,11 @@ let todoList = [
         title: 'health',
         author: 'warikoo',
         completed: true
+    },
+    {
+        title: 'monk',
+        author: 'robin',
+        completed: false
     }
 ];
 
@@ -42,7 +47,7 @@ let sortCompletedTodos = function(listName) {
         if(!a.completed) {
             return -1;
         }
-        else if(b.completed) {
+        else if(a.completed) {
             return 1;
         }
         else {

@@ -21,5 +21,5 @@ let filterTodoList = function(listName, filterData) {
     })
 }
 
-let filterTodo = filterTodoList(todoList, 'a');
+let filterTodo = filterTodoList(todoList, 'wake');
 console.log(filterTodo);
