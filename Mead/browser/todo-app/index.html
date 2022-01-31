@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-App</title>
+    <!-- The script below won't have access to the body tags.
+        Need to define the script inside the body!!    
+    -->
+    <!-- <script src="index.js"></script> -->
+</head>
+<body>
+    <h1>This is our Todo application</h1>
+    <button id="create-todo">Create Todo</button>
+    <div id="filtered-todos"></div>
+    <input type="text" placeholder="add todo" id="add-todo">
+    <form id="add-todo-form">
+        <input id="todo-input" placeholder="enter todo name" name="todoName">
+        <button type="submit">Submit</button>
+    </form>
+    <label>
+        <input type="checkbox" id="check-todos"> hide completed todos
+    </label>
+    <script src="index.js"></script>
+</body>
+</html>
