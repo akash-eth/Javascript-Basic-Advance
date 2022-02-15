@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo-App</title>
+    <!-- The script below won't have access to the body tags.
+        Need to define the script inside the body!!    
+    -->
+    <!-- <script src="index.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+</head>
+<body>
+    <h1>This is our Todo application</h1>
+    <div id="filtered-todos"></div>
+    <input type="text" placeholder="search todo" id="filter-todos">
+    <form id="add-todo-form">
+        <input id="todo-input" placeholder="enter todo name" name="todoName">
+        <button type="submit">Submit</button>
+    </form>
+    <label>
+        <input type="checkbox" id="check-todos"> hide completed todos
+    </label>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo-app.js"></script>
+</body>
+</html>
